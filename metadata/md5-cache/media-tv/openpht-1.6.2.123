@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=sys-devel/make >=dev-util/cmake-3.5.2
+DESCRIPTION=OpenPHT is a community driven fork of Plex Home Theater
+EAPI=5
+HOMEPAGE=https://github.com/RasPlex/OpenPHT
+RDEPEND=media-libs/sdl-image net-misc/shairplay media-libs/libmpeg2 media-video/rtmpdump media-libs/libass app-pda/libplist x11-libs/libva x11-libs/libvdpau dev-libs/libcec
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/RasPlex/OpenPHT/archive/v1.6.2.123-e23a7eef.tar.gz
+_eclass_exported_funcs=src_prepare:- src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:-
+_eclasses_=cmake-utils	f0c2647fb321257c91c6a967f362d053	eutils	ea170b525f6a38a006be05c9d9429f13	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	7bb10a841be2368af0c00f27dd67560b	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=a80a2d4d67316eca5973a6dc9f834239

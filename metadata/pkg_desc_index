@@ -1,0 +1,10 @@
+app-crypt/gtop11 2.2.0.12: PKCS11 driver for the Gemalto Cryptocard token
+app-crypt/ifdokccid 4.0.5.5: Omnikey CardMan 3x21 PC/SC CCID driver
+dev-dotnet/referenceassemblies-pcl 2014.04.14: Microsoft Portable Reference Libraries
+dev-util/monodevelop 6.9999: Integrated Development Environment for .NET
+media-tv/openpht 1.6.2.123 1.7.1.137: OpenPHT is a community driven fork of Plex Home Theater
+net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
+net-libs/telegram-qt 9999: Telegram binding for Qt
+net-misc/shairplay 20160101: Apple airplay and raop protocol server
+net-misc/xorgxrdp 0.2.0: Xorg drivers for xrdp
+net-misc/xrdp 0.9.1: An open source Remote Desktop Protocol server

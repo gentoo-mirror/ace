@@ -1,0 +1,14 @@
+DEFINED_PHASES=install setup
+DEPEND=sys-apps/pcsc-lite virtual/libusb:1 virtual/pkgconfig virtual/pkgconfig
+DESCRIPTION=Omnikey CardMan 3x21 PC/SC CCID driver
+EAPI=5
+HOMEPAGE=http://www.hidglobal.com/drivers
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=HID_OK_Drivers_EULA
+RDEPEND=sys-apps/pcsc-lite virtual/libusb:1
+RESTRICT=fetch bindist
+SLOT=0
+SRC_URI=amd64? ( ifdokccid_linux_x86_64-v4.0.5.5.tar.gz ) x86? ( ifdokccid_linux_i686-v4.0.5.5.tar.gz )
+_eclass_exported_funcs=pkg_setup:- src_install:-
+_eclasses_=multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	udev	0498b698e76cdc94930b59a00c73dd9c
+_md5_=8b7c585d065037c454897da29b7aba9a

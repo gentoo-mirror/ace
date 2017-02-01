@@ -1,0 +1,13 @@
+DEFINED_PHASES=-
+DEPEND=>dev-libs/boost-1.56.0 sys-apps/pcsc-lite app-crypt/p11-kit dev-libs/opensc net-misc/openvpn app-crypt/ccid dev-libs/engine_pkcs11 dev-libs/pkcs11-helper
+DESCRIPTION=PKCS11 driver for the Gemalto Cryptocard token
+EAPI=5
+HOMEPAGE=http://www.gemalto.com
+KEYWORDS=~amd64 ~x86
+RDEPEND=>dev-libs/boost-1.56.0 sys-apps/pcsc-lite app-crypt/p11-kit dev-libs/opensc net-misc/openvpn app-crypt/ccid dev-libs/engine_pkcs11 dev-libs/pkcs11-helper
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://www.nemid.nu/dk-da/support/aktiver_nemid/aktiver_nemid_paa_hardware/installer_driver/drivers/libgtop11dotnet_2.2.0.12.tar.gz
+_eclass_exported_funcs=-
+_eclasses_=eutils	ea170b525f6a38a006be05c9d9429f13	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=11c5fba08a8fc6697c60c467f721f4c8
