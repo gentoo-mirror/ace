@@ -2,6 +2,7 @@ app-crypt/gtop11 2.2.0.12: PKCS11 driver for the Gemalto Cryptocard token
 app-crypt/ifdokccid 4.0.5.5: Omnikey CardMan 3x21 PC/SC CCID driver
 dev-dotnet/referenceassemblies-pcl 2014.04.14: .NET Portable Class Library reference assemblies
 dev-util/monodevelop 6.9999: Integrated Development Environment for .NET
+kde-apps/discover 9999: KDE and Plasma resources management GUI
 media-tv/openpht 1.6.2.123 1.7.1.137: OpenPHT is a community driven fork of Plex Home Theater
 net-im/riot-web-bin 0.9.7: A glossy Matrix collaboration client for the web.
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
