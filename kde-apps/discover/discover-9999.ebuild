@@ -20,12 +20,12 @@ fi
 DESCRIPTION="KDE and Plasma resources management GUI"
 HOMEPAGE="https://github.com/KDE/discover"
 KEYWORDS=""
-IUSE="+notifier flatpak appstream packagekit"
+IUSE="+notifier flatpak packagekit snap"
 RESTRICT="mirror"
 
 DEPEND="
+	$(add_frameworks_dep attica)
 	$(add_frameworks_dep karchive)
-	$(add_frameworks_dep kattica)
 	$(add_frameworks_dep kconfig)
 	$(add_frameworks_dep kcoreaddons)
 	$(add_frameworks_dep kcrash)
@@ -39,13 +39,16 @@ DEPEND="
 	$(add_qt_dep qtdbus)
 	$(add_qt_dep qtnetwork)
 	$(add_qt_dep qtwidgets)
-	$(add_qt_dep qtquick)
+	$(add_qt_dep qtquickcontrols)
 	$(add_qt_dep qtxml)
 	packagekit? (
 		app-admin/packagekit-qt
 		dev-libs/appstream[qt5]
 	)
-	flatpak? ( >=sys-apps/flatpak-0.6.12 )
+	flatpak? (
+		>=sys-apps/flatpak-0.6.12
+		dev-libs/appstream[qt5]
+	)
 	notifier? (
 		$(add_frameworks_dep kio)
 		$(add_frameworks_dep knotifications)
@@ -53,7 +56,7 @@ DEPEND="
 "
 RDEPEND="${DEPEND}
 	$(add_kdeapps_dep kio-extras)
-	dev-libs/kirigami:2
+	>=dev-libs/kirigami-2.1.0:2
 "
 
 RESTRICT+=" test"
@@ -62,6 +65,7 @@ src_configure() {
 	local mycmakeargs=(
 		-DWITH_NOTIFIER=$(usex notifier)
 		-DBUILD_FlatpakBackend=$(usex flatpak)
+		-DBUILD_SnapBackend=$(usex snap)
 	)
 
 	kde5_src_configure
