@@ -10,3 +10,4 @@ net-libs/telegram-qt 9999: Telegram binding for Qt
 net-misc/shairplay 20160101: Apple airplay and raop protocol server
 net-misc/xorgxrdp 0.2.0: Xorg drivers for xrdp
 net-misc/xrdp 0.9.1: An open source Remote Desktop Protocol server
+sys-fs/enhanceio-ng 9999: SSD caching software, based on Facebook's open source Flashcache project
