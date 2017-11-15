@@ -4,7 +4,7 @@ dev-dotnet/referenceassemblies-pcl 2014.04.14: .NET Portable Class Library refer
 dev-util/monodevelop 6.9999: Integrated Development Environment for .NET
 kde-apps/discover 9999: KDE and Plasma resources management GUI
 media-tv/openpht 1.6.2.123 1.7.1.137: OpenPHT is a community driven fork of Plex Home Theater
-net-im/riot-web-bin 0.9.7 0.12.7: A glossy Matrix collaboration client for the web.
+net-im/riot-web-bin 0.9.7 0.13.0: A glossy Matrix collaboration client for the web.
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-libs/telegram-qt 9999: Telegram binding for Qt
 net-misc/shairplay 20160101: Apple airplay and raop protocol server
