@@ -12,7 +12,7 @@ net-im/riot-web-bin 0.13.5: A glossy Matrix collaboration client for the web.
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-misc/choria-bin 0.10.0: The Choria Orchestrator Server and Broker
 net-misc/shairplay 20160101: Apple airplay and raop protocol server
-net-misc/xorgxrdp 0.2.0 0.2.10: Xorg drivers for xrdp
+net-misc/xorgxrdp 0.2.0 0.2.11: Xorg drivers for xrdp
 net-misc/xrdp 0.9.9 0.9.10: An open source Remote Desktop Protocol server
 sys-apps/openwsman 2.6.5: Opensource Implementation of WS-Management Client
 sys-fs/enhanceio-ng 9999: SSD caching software, based on Facebook's open source Flashcache project
