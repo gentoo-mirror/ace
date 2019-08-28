@@ -1,7 +1,7 @@
 app-crypt/gtop11 2.2.0.12: PKCS11 driver for the Gemalto Cryptocard token
 app-crypt/ifdokccid 4.0.5.5: Omnikey CardMan 3x21 PC/SC CCID driver
 app-laptop/tuxedo-keyboard 9999: TUXEDO Computers Kernel module for keyboard backlighting
-dev-util/pdk 1.12.0.0-r1: Puppet Development Kit
+dev-util/pdk 1.12.0.0-r2: Puppet Development Kit
 dev-util/premake 5.0.0_alpha14: A makefile generation tool
 games-simulation/knossos 0.13.3: A simple mod manager for FreeSpace 2 Open
 games-util/itch-bin 23.6.1: A simple way to find and share indie games online for free.
