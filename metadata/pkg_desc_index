@@ -1,6 +1,8 @@
 app-crypt/gtop11 2.2.0.12: PKCS11 driver for the Gemalto Cryptocard token
 app-crypt/ifdokccid 4.0.5.5: Omnikey CardMan 3x21 PC/SC CCID driver
+app-editors/neovim 0.4.2: Vim-fork focused on extensibility and agility.
 app-laptop/tuxedo-keyboard 9999: TUXEDO Computers Kernel module for keyboard backlighting
+dev-lua/luv 1.30.0.0: libuv bindings for luajit and lua 5.1/5.2/5.3
 dev-util/pdk 1.13.0.0: Puppet Development Kit
 dev-util/premake 5.0.0_alpha14: A makefile generation tool
 games-simulation/knossos 0.13.3: A simple mod manager for FreeSpace 2 Open
