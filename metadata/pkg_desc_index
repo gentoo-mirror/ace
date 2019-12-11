@@ -11,6 +11,7 @@ games-util/itch-bin 23.6.1: A simple way to find and share indie games online fo
 kde-misc/kdeconnect 1.3.5: Adds communication between KDE Plasma and your smartphone
 media-fonts/tahoma 1: Microsoft's Tahoma font
 media-tv/openpht 1.6.2.123 1.7.1.137: OpenPHT is a community driven fork of Plex Home Theater
+net-im/microsoft-teams-bin 1.2.00.32451: 
 net-im/riot-web-bin 0.13.5: A glossy Matrix collaboration client for the web.
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-misc/choria-bin 0.12.1: The Choria Orchestrator Server and Broker
