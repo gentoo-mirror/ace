@@ -7,7 +7,6 @@ dev-lua/luv 1.30.0.0: libuv bindings for luajit and lua 5.1/5.2/5.3
 dev-util/pdk 1.16.0.2: Puppet Development Kit
 dev-util/premake 5.0.0_alpha14: A makefile generation tool
 games-simulation/knossos 0.13.3 0.14.0_rc1: A simple mod manager for FreeSpace 2 Open
-games-util/itch-bin 23.6.1: A simple way to find and share indie games online for free.
 games-util/oversteer 0.4: Steering Wheel Manager for Linux
 kde-misc/kdeconnect 1.3.5: Adds communication between KDE Plasma and your smartphone
 media-fonts/tahoma 1: Microsoft's Tahoma font
