@@ -4,7 +4,7 @@ app-editors/neovim 0.4.2: Vim-fork focused on extensibility and agility.
 app-laptop/tuxedo-keyboard 9999: TUXEDO Computers Kernel module for keyboard backlighting
 dev-dotnet/dotnetcore-sdk-bin 3.0.100: .NET Core SDK - binary precompiled for glibc
 dev-lua/luv 1.30.0.0: libuv bindings for luajit and lua 5.1/5.2/5.3
-dev-util/pdk 1.16.0.2: Puppet Development Kit
+dev-util/pdk 1.17.0.0: Puppet Development Kit
 dev-util/premake 5.0.0_alpha14: A makefile generation tool
 games-simulation/knossos 0.13.3 0.14.0_rc1: A simple mod manager for FreeSpace 2 Open
 games-util/oversteer 0.4: Steering Wheel Manager for Linux
@@ -18,8 +18,8 @@ net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-misc/choria-bin 0.13.1: The Choria Orchestrator Server and Broker
 net-misc/pulseaudio-module-xrdp 0.4: xrdp sink / source pulseaudio modules
 net-misc/shairplay 20160101: Apple airplay and raop protocol server
-net-misc/xorgxrdp 0.2.0 0.2.12: Xorg drivers for xrdp
-net-misc/xrdp 0.9.12: An open source Remote Desktop Protocol server
+net-misc/xorgxrdp 0.2.0 0.2.13: Xorg drivers for xrdp
+net-misc/xrdp 0.9.13: An open source Remote Desktop Protocol server
 sys-apps/openwsman 2.6.5: Opensource Implementation of WS-Management Client
 x11-misc/nvidia-xrun 9999: Script to run dedicated X server with discrete nvidia graphics
 x11-misc/nvidia-xrun-pm 9999: Script to run dedicated X server with discrete nvidia graphics
