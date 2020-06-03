@@ -10,7 +10,7 @@ games-simulation/knossos 0.13.3 0.14.0_rc1: A simple mod manager for FreeSpace 2
 games-util/oversteer 0.4: Steering Wheel Manager for Linux
 media-fonts/tahoma 1: Microsoft's Tahoma font
 media-tv/openpht 1.6.2.123 1.7.1.137: OpenPHT is a community driven fork of Plex Home Theater
-media-video/pipewire 0.3.5: Multimedia processing graphs
+media-video/pipewire 0.3.5-r1: Multimedia processing graphs
 net-im/microsoft-teams-bin 1.2.00.32451: 
 net-im/riot-web-bin 0.13.5: A glossy Matrix collaboration client for the web.
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
