@@ -1,0 +1,14 @@
+BDEPEND=app-doc/xmltoman doc? ( app-doc/doxygen media-gfx/graphviz ) vulkan? ( dev-util/vulkan-headers media-libs/vulkan-loader ) >=dev-util/meson-0.51.2 >=dev-util/ninja-1.8.2
+DEFINED_PHASES=compile configure install postinst test
+DEPEND=media-libs/alsa-lib sys-apps/dbus virtual/libudev bluetooth? ( media-libs/sbc >=net-wireless/bluez-4.101 ) ffmpeg? ( !libav? ( media-video/ffmpeg:= ) libav? ( media-video/libav:= ) ) gstreamer? ( media-libs/gstreamer:1.0 media-libs/gst-plugins-base:1.0 ) jack? ( >=media-sound/jack-audio-connection-kit-1.9.10 ) pulseaudio? ( >=media-sound/pulseaudio-11.1[glib] ) sdl? ( media-libs/libsdl2 ) systemd? ( sys-apps/systemd )
+DESCRIPTION=Multimedia processing graphs
+EAPI=7
+HOMEPAGE=https://pipewire.org/
+IUSE=alsa bluetooth doc ffmpeg gstreamer jack libav pulseaudio sdl systemd vulkan
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86
+LICENSE=LGPL-2.1+
+RDEPEND=media-libs/alsa-lib sys-apps/dbus virtual/libudev bluetooth? ( media-libs/sbc >=net-wireless/bluez-4.101 ) ffmpeg? ( !libav? ( media-video/ffmpeg:= ) libav? ( media-video/libav:= ) ) gstreamer? ( media-libs/gstreamer:1.0 media-libs/gst-plugins-base:1.0 ) jack? ( >=media-sound/jack-audio-connection-kit-1.9.10 ) pulseaudio? ( >=media-sound/pulseaudio-11.1[glib] ) sdl? ( media-libs/libsdl2 ) systemd? ( sys-apps/systemd )
+SLOT=0/0.2
+SRC_URI=https://github.com/PipeWire/pipewire/archive/0.3.5.tar.gz -> pipewire-0.3.5.tar.gz
+_eclasses_=meson	991e544bbaf3120073ededbdc1d8bf93	multilib	0914eab919f4f11dd9e0407b92af4726	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	python-utils-r1	ace0a9a129fcfeaae542c0d15c07f36a	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97
+_md5_=8b9dc4e40be4a521403a63b2c70778e4
