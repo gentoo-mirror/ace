@@ -1,10 +1,6 @@
-app-crypt/gtop11 2.2.0.12: PKCS11 driver for the Gemalto Cryptocard token
-app-crypt/ifdokccid 4.0.5.5: Omnikey CardMan 3x21 PC/SC CCID driver
-app-editors/neovim 0.4.2: Vim-fork focused on extensibility and agility.
 app-laptop/tuxedo-keyboard 9999: TUXEDO Computers Kernel module for keyboard backlighting
-dev-dotnet/dotnetcore-sdk-bin 3.0.100: .NET Core SDK - binary precompiled for glibc
-dev-lua/luv 1.30.0.0: libuv bindings for luajit and lua 5.1/5.2/5.3
-dev-util/pdk 1.17.0.0: Puppet Development Kit
+app-misc/jdupes 1.17.0 9999: A powerful duplicate file finder and an enhanced fork of 'fdupes'.
+dev-util/pdk 1.18.0.0: Puppet Development Kit
 dev-util/premake 5.0.0_alpha14: A makefile generation tool
 games-simulation/knossos 0.13.3 0.14.0_rc1: A simple mod manager for FreeSpace 2 Open
 games-util/mangohud 0.4.1 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
