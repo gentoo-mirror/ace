@@ -9,8 +9,8 @@ dev-util/premake 5.0.0_alpha14: A makefile generation tool
 games-simulation/knossos 0.13.3 0.14.0_rc1: A simple mod manager for FreeSpace 2 Open
 games-util/mangohud 0.4.1 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
 games-util/new-lg4ff 0.3.1: Experimental Logitech force feedback module
-games-util/opentrack 2.3.11 9999: 
-games-util/oversteer 0.4: Steering Wheel Manager for Linux
+games-util/opentrack 2.3.11 9999: Head tracking software for MS Windows, Linux, and Apple OSX
+games-util/oversteer 0.4.1 9999: Steering Wheel Manager for Linux
 media-fonts/tahoma 1: Microsoft's Tahoma font
 media-tv/openpht 1.6.2.123 1.7.1.137: OpenPHT is a community driven fork of Plex Home Theater
 media-video/pipewire 0.3.6: Multimedia processing graphs
