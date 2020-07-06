@@ -13,7 +13,7 @@ media-video/pipewire 0.3.6: Multimedia processing graphs
 net-im/microsoft-teams-bin 1.2.00.32451: 
 net-im/riot-web-bin 0.13.5: A glossy Matrix collaboration client for the web.
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
-net-misc/choria-bin 0.13.1: The Choria Orchestrator Server and Broker
+net-misc/choria-bin 0.15.0: The Choria Orchestrator Server and Broker
 net-misc/pulseaudio-module-xrdp 0.4: xrdp sink / source pulseaudio modules
 net-misc/shairplay 20160101: Apple airplay and raop protocol server
 net-misc/xorgxrdp 0.2.0 0.2.13: Xorg drivers for xrdp
