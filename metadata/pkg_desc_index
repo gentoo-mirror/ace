@@ -1,6 +1,6 @@
 app-laptop/tuxedo-keyboard 9999: TUXEDO Computers Kernel module for keyboard backlighting
 app-misc/jdupes 1.17.0 9999: A powerful duplicate file finder and an enhanced fork of 'fdupes'.
-dev-util/pdk 1.18.0.0: Puppet Development Kit
+dev-util/pdk 1.18.1.0: Puppet Development Kit
 dev-util/premake 5.0.0_alpha14: A makefile generation tool
 games-simulation/knossos 0.13.3 0.14.0_rc1: A simple mod manager for FreeSpace 2 Open
 games-util/mangohud 0.4.1 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
@@ -13,7 +13,7 @@ media-video/pipewire 0.3.6: Multimedia processing graphs
 net-im/microsoft-teams-bin 1.2.00.32451: 
 net-im/riot-web-bin 0.13.5: A glossy Matrix collaboration client for the web.
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
-net-misc/choria-bin 0.15.0: The Choria Orchestrator Server and Broker
+net-misc/choria-bin 0.16.0: The Choria Orchestrator Server and Broker
 net-misc/pulseaudio-module-xrdp 0.4: xrdp sink / source pulseaudio modules
 net-misc/shairplay 20160101: Apple airplay and raop protocol server
 net-misc/xorgxrdp 0.2.0 0.2.13: Xorg drivers for xrdp
