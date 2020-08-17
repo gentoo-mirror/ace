@@ -3,7 +3,7 @@ app-misc/jdupes 1.17.0 9999: A powerful duplicate file finder and an enhanced fo
 dev-util/pdk 1.18.1.0: Puppet Development Kit
 dev-util/premake 5.0.0_alpha14: A makefile generation tool
 games-simulation/knossos 0.13.3 0.14.0_rc1: A simple mod manager for FreeSpace 2 Open
-games-util/mangohud 0.4.1 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
+games-util/mangohud 0.5.1 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
 games-util/new-lg4ff 0.3.1: Experimental Logitech force feedback module
 games-util/opentrack 2.3.11 9999: Head tracking software for MS Windows, Linux, and Apple OSX
 games-util/oversteer 0.4.1 9999: Steering Wheel Manager for Linux
