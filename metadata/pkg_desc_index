@@ -18,6 +18,7 @@ net-misc/pulseaudio-module-xrdp 0.4: xrdp sink / source pulseaudio modules
 net-misc/shairplay 20160101: Apple airplay and raop protocol server
 net-misc/xorgxrdp 0.2.0 0.2.13: Xorg drivers for xrdp
 net-misc/xrdp 0.9.13.1-r1: An open source Remote Desktop Protocol server
+sys-apps/earlyoom 1.6.1 9999: Early OOM Daemon for Linux
 sys-apps/openwsman 2.6.5: Opensource Implementation of WS-Management Client
 x11-misc/nvidia-xrun 9999: Script to run dedicated X server with discrete nvidia graphics
 x11-misc/nvidia-xrun-pm 9999: Script to run dedicated X server with discrete nvidia graphics
