@@ -39,7 +39,7 @@ DEPEND="${RDEPEND}
 #     )"
 
 PATCHES=(
-	"${FILESDIR}/${PN}-gcc8.patch"
+	"${FILESDIR}/${PN}-oscalls.patch"
 )
 
 src_prepare() {
@@ -71,7 +71,7 @@ src_configure() {
 
 		# -- authentication backends --
 		# kerberos is inside !SESMAN_NOPAM conditional for no reason
-		$(use pam || use kerberos || echo --enable-nopam)
+		$(use pam || use kerberos && echo --disable-pam)
 		$(usex kerberos --enable-kerberos '')
 		# pam_userpass is not in Gentoo at the moment
 		#--disable-pamuserpass
