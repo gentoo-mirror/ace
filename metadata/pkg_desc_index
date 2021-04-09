@@ -1,5 +1,5 @@
 app-laptop/tuxedo-keyboard 9999: TUXEDO Computers Kernel module for keyboard backlighting
-app-misc/jdupes 1.17.0 9999: A powerful duplicate file finder and an enhanced fork of 'fdupes'.
+app-misc/jdupes 1.17.0 1.19.2 9999: A powerful duplicate file finder and an enhanced fork of 'fdupes'.
 dev-python/brother_ql 0.9.4: Python package to talk to Brother QL label printers
 dev-python/packbits 0.6: PackBits encoder/decoder
 dev-python/token-bucket 0.2.0: A Token Bucket Implementation for Python Web Apps
