@@ -7,24 +7,29 @@ PYTHON_COMPAT=( python3_{6,7,8,9} )
 
 inherit meson distutils-r1 multilib-minimal flag-o-matic git-r3
 
-DESCRIPTION="A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more."
+DESCRIPTION="A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more. AMDGPU testing branch"
 HOMEPAGE="https://github.com/flightlessmango/MangoHud"
 
+SRC_URI="
+    https://github.com/ocornut/imgui/archive/v1.81.tar.gz -> imgui-1.81.tar.gz
+    https://wrapdb.mesonbuild.com/v1/projects/imgui/1.81/1/get_zip -> imgui_wrap-1.81.zip
+"
 EGIT_REPO_URI="https://github.com/flightlessmango/MangoHud.git"
-if ! [[ ${PV} == "9999" ]]; then
-	EGIT_COMMIT="v${PV}"
-	KEYWORDS="-* ~amd64 ~x86"
-fi
+EGIT_BRANCH="amdgpu"
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="+dbus glvnd +X xnvctrl wayland video_cards_nvidia"
+IUSE="+dbus glvnd +X xnvctrl wayland -video_cards_nvidia +video_cards_amdgpu"
 
 BDEPEND="dev-python/mako[${PYTHON_USEDEP}]"
 DEPEND="
+    !games-util/mangohud
 	dev-util/glslang
 	>=dev-util/vulkan-headers-1.2
 	media-libs/vulkan-loader[${MULTILIB_USEDEP}]
+	video_cards_amdgpu? (
+		x11-libs/libdrm[video_cards_amdgpu]
+	)
 	glvnd? (
 		media-libs/libglvnd[$MULTILIB_USEDEP]
 	)
@@ -39,16 +44,23 @@ DEPEND="
 
 RDEPEND="${DEPEND}"
 
+src_unpack() {
+	git-r3_src_unpack
+	default
+
+	mv imgui-1.81 mangohud-amdgpu-9999/subprojects
+}
 multilib_src_configure() {
 	local emesonargs=(
 		-Dappend_libdir_mangohud=false
 		-Duse_system_vulkan=enabled
 		-Dinclude_doc=false
-		-Dwith_nvml=$(usex video_cards_nvidia enabled disabled)
-		-Dwith_xnvctrl=$(usex xnvctrl enabled disabled)
-		-Dwith_X11=$(usex X enabled disabled)
-		-Dwith_wayland=$(usex wayland enabled disabled)
-		-Dwith_dbus=$(usex dbus enabled disabled)
+		$(meson_feature video_cards_nvidia with_nvml)
+		$(meson_feature xnvctrl with_xnvctrl)
+		$(meson_feature X with_x11)
+		$(meson_feature wayland with_wayland)
+		$(meson_feature dbus with_dbus)
+		$(meson_feature video_cards_amdgpu with_libdrm_amdgpu)
 
 	)
 	meson_src_configure
