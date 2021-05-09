@@ -23,7 +23,6 @@ LICENSE="MIT"
 SLOT="0"
 IUSE="+dbus glvnd +X xnvctrl wayland video_cards_nvidia"
 REQUIRED_USE="
-	^^ ( X wayland )
 	xnvctrl? ( video_cards_nvidia )
 "
 
@@ -45,6 +44,15 @@ DEPEND="
 "
 
 RDEPEND="${DEPEND}"
+
+src_unpack() {
+	if ! [[ "${PV}" == "9999" ]]; then
+		unpack ${A}
+		mv MangoHud-${PV} mangohud-${PV}
+	else
+		git-r3_src_unpack
+	fi
+}
 
 multilib_src_configure() {
 	local emesonargs=(
