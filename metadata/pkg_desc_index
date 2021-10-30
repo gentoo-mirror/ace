@@ -5,6 +5,7 @@ dev-libs/jansson 2.14: C library for encoding, decoding and manipulating JSON da
 dev-python/brother_ql 0.9.4: Python package to talk to Brother QL label printers
 dev-python/packbits 0.6: PackBits encoder/decoder
 dev-python/token-bucket 0.2.0: A Token Bucket Implementation for Python Web Apps
+dev-util/conan 1.41.0 1.42.0: Distributed C/C++ package manager
 dev-util/pdk 1.18.1.0 2.0.0.0 2.1.0.0 2.2.0.0: Puppet Development Kit
 dev-util/premake 5.0.0_alpha14: A makefile generation tool
 games-simulation/knossos 0.14.3-r2: A simple mod manager for FreeSpace 2 Open
