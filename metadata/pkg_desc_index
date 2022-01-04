@@ -4,7 +4,7 @@ app-misc/jdupes 1.17.0 1.19.2 1.20.0 9999: A powerful duplicate file finder and 
 dev-libs/jansson 2.14: C library for encoding, decoding and manipulating JSON data
 dev-python/brother_ql 0.9.4: Python package to talk to Brother QL label printers
 dev-python/packbits 0.6: PackBits encoder/decoder
-dev-python/token-bucket 0.2.0: A Token Bucket Implementation for Python Web Apps
+dev-python/token-bucket 0.2.0 0.3.0: A Token Bucket Implementation for Python Web Apps
 dev-util/conan 1.41.0 1.42.0: Distributed C/C++ package manager
 dev-util/pdk 1.18.1.0 2.0.0.0 2.1.0.0 2.2.0.0 2.3.0.0: Puppet Development Kit
 dev-util/premake 5.0.0_alpha14: A makefile generation tool
