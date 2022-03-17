@@ -22,7 +22,7 @@ net-misc/choria-bin 0.20.2-r1 0.21.0-r1 0.22.0 0.23.0 0.24.0 0.24.1: The Choria 
 net-misc/pulseaudio-module-xrdp 0.4: xrdp sink / source pulseaudio modules
 net-misc/shairplay 20160101: Apple airplay and raop protocol server
 net-misc/xorgxrdp 0.2.15 0.2.16 0.2.17 0.2.18 0.2.18-r1: Xorg drivers for xrdp
-net-misc/xrdp 0.9.14 0.9.15-r1 0.9.16 0.9.18.1: An open source Remote Desktop Protocol server
+net-misc/xrdp 0.9.14 0.9.15-r1 0.9.16 0.9.18.1 0.9.19: An open source Remote Desktop Protocol server
 net-vpn/forticlient 7.0.0.0018: Fortinet VPN client
 sys-apps/earlyoom 1.6.1 9999: Early OOM Daemon for Linux
 x11-misc/nvidia-xrun 9999: Script to run dedicated X server with discrete nvidia graphics
