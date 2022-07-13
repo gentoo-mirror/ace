@@ -16,6 +16,7 @@ games-util/opentrack 2.3.11 9999: Head tracking software for MS Windows, Linux, 
 games-util/oversteer 0.4.1 0.6.0 9999: Steering Wheel Manager for Linux
 media-fonts/tahoma 1: Microsoft's Tahoma font
 media-tv/openpht 1.6.2.123 1.7.1.137: OpenPHT is a community driven fork of Plex Home Theater
+net-dialup/tio 1.43: Simple TTY terminal application
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-misc/choria 0.24.1: The Choria Orchestrator Server and Broker
 net-misc/choria-bin 0.20.2-r1 0.21.0-r1 0.22.0 0.23.0 0.24.0 0.24.1: The Choria Orchestrator Server and Broker
