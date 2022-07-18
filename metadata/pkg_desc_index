@@ -6,6 +6,7 @@ dev-python/brother_ql 0.9.4: Python package to talk to Brother QL label printers
 dev-python/packbits 0.6: PackBits encoder/decoder
 dev-python/token-bucket 0.2.0 0.3.0: A Token Bucket Implementation for Python Web Apps
 dev-util/conan 1.41.0 1.42.0: Distributed C/C++ package manager
+dev-util/pdk 1.18.1.0 2.0.0.0 2.1.0.0 2.2.0.0 2.3.0.0 2.4.0.1 2.5.0.0: Puppet Development Kit
 dev-util/premake 5.0.0_alpha14: A makefile generation tool
 games-util/lutris 0.5.9.1: An open source gaming platform for GNU/Linux
 games-util/mangohud 0.6.1 0.6.3 0.6.4 0.6.5 0.6.7 0.6.7.1 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more. AMDGPU testing branch
@@ -16,7 +17,8 @@ media-fonts/tahoma 1: Microsoft's Tahoma font
 net-dialup/tio 1.43: Simple TTY terminal application
 net-misc/choria 0.24.1: The Choria Orchestrator Server and Broker
 net-misc/choria-bin 0.20.2-r1 0.21.0-r1 0.22.0 0.23.0 0.24.0 0.24.1: The Choria Orchestrator Server and Broker
-net-misc/xorgxrdp 0.2.15 0.2.16 0.2.17 0.2.18 0.2.18-r1: Xorg drivers for xrdp
+net-misc/pulseaudio-module-xrdp 0.4: xrdp sink / source pulseaudio modules
+net-misc/xorgxrdp 0.2.18-r1: Xorg drivers for xrdp
 net-misc/xrdp 0.9.14 0.9.15-r1 0.9.16 0.9.18.1 0.9.19: An open source Remote Desktop Protocol server
 net-vpn/forticlient 7.0.0.0018: Fortinet VPN client
 sys-apps/earlyoom 1.6.1 9999: Early OOM Daemon for Linux
