@@ -16,6 +16,7 @@ games-util/opentrack 2.3.11 9999: Head tracking software for MS Windows, Linux, 
 games-util/oversteer 0.4.1 0.6.0 9999: Steering Wheel Manager for Linux
 media-fonts/tahoma 1: Microsoft's Tahoma font
 net-dialup/tio 1.43: Simple TTY terminal application
+net-libs/nghttp3 0.5.0: HTTP/3 library written in C
 net-misc/choria 0.24.1: The Choria Orchestrator Server and Broker
 net-misc/choria-bin 0.20.2-r1 0.21.0-r1 0.22.0 0.23.0 0.24.0 0.24.1: The Choria Orchestrator Server and Broker
 net-misc/pulseaudio-module-xrdp 0.4: xrdp sink / source pulseaudio modules
