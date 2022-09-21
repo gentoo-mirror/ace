@@ -1,4 +1,4 @@
-app-admin/chezmoi-bin 2.20.0 2.21.0 2.22.0 2.22.1: Manage your dotfiles across multiple machines, securely.
+app-admin/chezmoi-bin 2.20.0 2.21.0 2.22.0 2.22.1 2.23.0: Manage your dotfiles across multiple machines, securely.
 app-laptop/tuxedo-keyboard 9999: TUXEDO Computers Kernel module for keyboard backlighting
 app-misc/jdupes 1.17.0 1.19.2 1.20.0 9999: A powerful duplicate file finder and an enhanced fork of 'fdupes'.
 dev-libs/jansson 2.14: C library for encoding, decoding and manipulating JSON data
