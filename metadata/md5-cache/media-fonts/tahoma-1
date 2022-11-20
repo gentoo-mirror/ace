@@ -8,5 +8,5 @@ IUSE=X
 KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~x86-fbsd
 LICENSE=MSttfEULA
 SLOT=0
-_eclasses_=font	9cdfddf092c05c7c4efd70cc30dea046
+_eclasses_=font	5e03cb70902daa9ff8967c61130f0f60
 _md5_=e2b6f330aeffe6e7cd409777bfb2218f
