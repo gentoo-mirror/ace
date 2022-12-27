@@ -1,5 +1,4 @@
 app-admin/chezmoi-bin 2.20.0 2.21.0 2.22.0 2.22.1 2.23.0 2.24.0 2.25.0 2.26.0 2.27.0 2.27.3 2.28.0: Manage your dotfiles across multiple machines, securely.
-app-laptop/tuxedo-keyboard 9999: TUXEDO Computers Kernel module for keyboard backlighting
 app-misc/jdupes 1.17.0 1.19.2 1.20.0 9999: A powerful duplicate file finder and an enhanced fork of 'fdupes'.
 dev-libs/jansson 2.14: C library for encoding, decoding and manipulating JSON data
 dev-python/brother_ql 0.9.4: Python package to talk to Brother QL label printers
@@ -11,7 +10,6 @@ dev-util/premake 5.0.0_alpha14: A makefile generation tool
 games-simulation/knossos 0.14.3-r3: A simple mod manager for FreeSpace 2 Open
 games-util/lutris 0.5.9.1: An open source gaming platform for GNU/Linux
 games-util/mangohud 0.6.1 0.6.3 0.6.4 0.6.5 0.6.7 0.6.7.1 0.6.8 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more. AMDGPU testing branch
-games-util/new-lg4ff 0.3.1: Experimental Logitech force feedback module
 games-util/opentrack 2.3.11 2022.3.0 9999: Head tracking software for MS Windows, Linux, and Apple OSX
 games-util/oversteer 0.4.1 0.6.0 9999: Steering Wheel Manager for Linux
 media-fonts/tahoma 1: Microsoft's Tahoma font
