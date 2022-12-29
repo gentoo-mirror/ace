@@ -11,6 +11,7 @@ dev-util/premake 5.0.0_alpha14: A makefile generation tool
 games-simulation/knossos 0.14.3-r3: A simple mod manager for FreeSpace 2 Open
 games-util/lutris 0.5.9.1: An open source gaming platform for GNU/Linux
 games-util/mangohud 0.6.1 0.6.3 0.6.4 0.6.5 0.6.7 0.6.7.1 0.6.8 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more. AMDGPU testing branch
+games-util/new-lg4ff 0.3.1 0.3.3 0.4.0 9999: Experimental Logitech force feedback module
 games-util/opentrack 2.3.11 2022.3.0 9999: Head tracking software for MS Windows, Linux, and Apple OSX
 games-util/oversteer 0.4.1 0.6.0 9999: Steering Wheel Manager for Linux
 media-fonts/tahoma 1: Microsoft's Tahoma font
