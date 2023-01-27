@@ -23,6 +23,7 @@ net-misc/pulseaudio-module-xrdp 0.4: xrdp sink / source pulseaudio modules
 net-misc/xorgxrdp 0.2.18-r1 0.9.19: Xorg drivers for xrdp
 net-misc/xrdp 0.9.14 0.9.15-r1 0.9.16 0.9.18.1 0.9.19 0.9.20 0.9.21.1: An open source Remote Desktop Protocol server
 net-vpn/forticlient 7.0.0.0018: Fortinet VPN client
+net-wireless/libfreefare 9999: a library for high level manipulation of MIFARE tags
 sys-apps/earlyoom 1.6.1 9999: Early OOM Daemon for Linux
 x11-misc/nvidia-xrun 9999: Script to run dedicated X server with discrete nvidia graphics
 x11-misc/nvidia-xrun-pm 9999: Script to run dedicated X server with discrete nvidia graphics
