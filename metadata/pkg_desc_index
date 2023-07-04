@@ -8,7 +8,7 @@ dev-python/brother_ql 0.9.4: Python package to talk to Brother QL label printers
 dev-python/packbits 0.6: PackBits encoder/decoder
 dev-python/token-bucket 0.2.0 0.3.0: A Token Bucket Implementation for Python Web Apps
 dev-util/conan 1.41.0 1.42.0: Distributed C/C++ package manager
-dev-util/pdk 1.18.1.0 2.0.0.0 2.1.0.0 2.2.0.0 2.3.0.0 2.4.0.1 2.5.0.0 2.6.0.0 2.6.1.0 2.7.0.0 2.7.1.0: Puppet Development Kit
+dev-util/pdk 1.18.1.0 2.0.0.0 2.1.0.0 2.2.0.0 2.3.0.0 2.4.0.1 2.5.0.0 2.6.0.0 2.6.1.0 2.7.0.0 2.7.1.0 3.0.0.0: Puppet Development Kit
 dev-util/premake 5.0.0_alpha14: A makefile generation tool
 games-simulation/knossos 0.14.3-r3: A simple mod manager for FreeSpace 2 Open
 games-util/mangohud 0.6.1 0.6.3 0.6.4 0.6.5 0.6.7 0.6.7.1 0.6.8 0.6.9.1 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more. AMDGPU testing branch
