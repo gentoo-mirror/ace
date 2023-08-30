@@ -1,12 +1,16 @@
+app-admin/chezmoi-bin 2.38.0: Manage your dotfiles across multiple machines, securely.
 app-admin/system76-scheduler 2.0.0 2.0.1: Linux service that manages process priorities and CFS scheduler latencies for improved responsiveness on the desktop
 app-crypt/sops 3.7.3 9999: Simple and flexible tool for managing secrets
 app-laptop/tuxedo-keyboard 9999: TUXEDO Computers Kernel module for keyboard backlighting
+app-misc/jdupes 1.17.0 1.19.2 1.20.0 9999: A powerful duplicate file finder and an enhanced fork of 'fdupes'.
 dev-libs/jansson 2.14: C library for encoding, decoding and manipulating JSON data
 dev-python/brother_ql 0.9.4: Python package to talk to Brother QL label printers
 dev-python/packbits 0.6: PackBits encoder/decoder
 dev-python/token-bucket 0.2.0 0.3.0: A Token Bucket Implementation for Python Web Apps
 dev-util/conan 1.41.0 1.42.0: Distributed C/C++ package manager
+dev-util/pdk 1.18.1.0 2.0.0.0 2.1.0.0 2.2.0.0 2.3.0.0 2.4.0.1 2.5.0.0 2.6.0.0 2.6.1.0 2.7.0.0 2.7.1.0 3.0.0.0: Puppet Development Kit
 dev-util/premake 5.0.0_alpha14: A makefile generation tool
+games-simulation/knossos 0.14.3-r3: A simple mod manager for FreeSpace 2 Open
 games-util/mangohud 0.6.1 0.6.3 0.6.4 0.6.5 0.6.7 0.6.7.1 0.6.8 0.6.9.1 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more. AMDGPU testing branch
 games-util/new-lg4ff 0.3.1 0.3.3 0.4.0 9999: Experimental Logitech force feedback module
 games-util/opentrack 2.3.11 2022.3.0 9999: Head tracking software for MS Windows, Linux, and Apple OSX
@@ -16,6 +20,8 @@ net-dialup/tio 1.43: Simple TTY terminal application
 net-libs/nghttp3 0.5.0: HTTP/3 library written in C
 net-misc/choria 0.24.1: The Choria Orchestrator Server and Broker
 net-misc/choria-bin 0.20.2-r1 0.21.0-r1 0.22.0 0.23.0 0.24.0 0.24.1 0.25.0 0.25.1 0.26.0 0.26.1 0.26.2: The Choria Orchestrator Server and Broker
+net-misc/pulseaudio-module-xrdp 0.4: xrdp sink / source pulseaudio modules
+net-misc/xorgxrdp 0.2.18-r1 0.9.19: Xorg drivers for xrdp
 net-vpn/forticlient 7.0.0.0018: Fortinet VPN client
 net-wireless/libfreefare 9999: a library for high level manipulation of MIFARE tags
 sys-apps/earlyoom 1.6.1 9999: Early OOM Daemon for Linux
