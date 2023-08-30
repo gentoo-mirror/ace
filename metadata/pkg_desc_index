@@ -22,6 +22,7 @@ net-misc/choria 0.24.1: The Choria Orchestrator Server and Broker
 net-misc/choria-bin 0.20.2-r1 0.21.0-r1 0.22.0 0.23.0 0.24.0 0.24.1 0.25.0 0.25.1 0.26.0 0.26.1 0.26.2: The Choria Orchestrator Server and Broker
 net-misc/pulseaudio-module-xrdp 0.4: xrdp sink / source pulseaudio modules
 net-misc/xorgxrdp 0.2.18-r1 0.9.19: Xorg drivers for xrdp
+net-misc/xrdp 0.9.22.1: An open source Remote Desktop Protocol server
 net-vpn/forticlient 7.0.0.0018: Fortinet VPN client
 net-wireless/libfreefare 9999: a library for high level manipulation of MIFARE tags
 sys-apps/earlyoom 1.6.1 9999: Early OOM Daemon for Linux

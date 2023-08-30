@@ -1,0 +1,17 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 virtual/pkgconfig
+DEFINED_PHASES=configure install postinst preinst prepare
+DEPEND=dev-libs/openssl:0= pulseaudio? ( media-sound/pulseaudio:0= ) x11-libs/libX11:0= x11-libs/libXfixes:0= x11-libs/libXrandr:0= fuse? ( sys-fs/fuse:0= ) jpeg? ( virtual/jpeg:0= ) kerberos? ( virtual/krb5:0= ) pam? ( sys-libs/pam:0= ) neutrinordp? ( net-misc/freerdp:0= ) xrdpvr? ( media-video/ffmpeg:0= ) app-arch/xz-utils dev-lang/nasm
+DESCRIPTION=An open source Remote Desktop Protocol server
+EAPI=7
+HOMEPAGE=http://www.xrdp.org/
+INHERIT=autotools pam systemd
+IUSE=debug fuse +ipv6 kerberos jpeg -neutrinordp pam +pulseaudio systemd +vsock +xorg -xrdpvr
+KEYWORDS=~amd64 ~arm ~arm64 ~riscv ~x86
+LICENSE=Apache-2.0
+PDEPEND=xorg? ( net-misc/xorgxrdp )
+RDEPEND=dev-libs/openssl:0= pulseaudio? ( media-sound/pulseaudio:0= ) x11-libs/libX11:0= x11-libs/libXfixes:0= x11-libs/libXrandr:0= fuse? ( sys-fs/fuse:0= ) jpeg? ( virtual/jpeg:0= ) kerberos? ( virtual/krb5:0= ) pam? ( sys-libs/pam:0= ) neutrinordp? ( net-misc/freerdp:0= ) xrdpvr? ( media-video/ffmpeg:0= )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/neutrinolabs/xrdp/releases/download/v0.9.22.1/xrdp-0.9.22.1.tar.gz
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	flag-o-matic	be27a904c614cb93ae037762dc69bcc2	pam	b56d0c9c20fc5b553f13c8ae165a10a5	systemd	5f4bb0758df2e483babf68cd517078ca
+_md5_=c7a68193d6299b7c28a16377350fe328
