@@ -16,7 +16,7 @@ games-util/new-lg4ff 0.3.1 0.3.3 0.4.0 9999: Experimental Logitech force feedbac
 games-util/opentrack 2.3.11 2022.3.0 9999: Head tracking software for MS Windows, Linux, and Apple OSX
 games-util/oversteer 0.4.1 0.6.0 9999: Steering Wheel Manager for Linux
 media-fonts/tahoma 1: Microsoft's Tahoma font
-net-analyzer/crowdsec-bin 1.5.4: CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI.
+net-analyzer/crowdsec-bin 1.5.4-r1: CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI.
 net-dialup/tio 1.43: Simple TTY terminal application
 net-libs/nghttp3 0.5.0: HTTP/3 library written in C
 net-misc/choria 0.24.1: The Choria Orchestrator Server and Broker

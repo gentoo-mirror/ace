@@ -1,9 +1,13 @@
-DEFINED_PHASES=install
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install prepare
 DESCRIPTION=CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI.
 EAPI=8
 HOMEPAGE=https://github.com/crowdsecurity/crowdsec
+INHERIT=systemd
+IUSE=cron server
 KEYWORDS=~amd64
 LICENSE=MIT
 SLOT=0
 SRC_URI=amd64? ( https://github.com/crowdsecurity/crowdsec/releases/download/v1.5.4/crowdsec-release.tgz -> crowdsec-release-1.5.4.tgz )
-_md5_=63d1396ccd2e476138dace5731f9117b
+_eclasses_=toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942
+_md5_=296d867621da83c2e5a2d30d70100f7f
