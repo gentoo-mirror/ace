@@ -28,6 +28,6 @@ net-vpn/forticlient 7.0.0.0018: Fortinet VPN client
 net-wireless/libfreefare 9999: a library for high level manipulation of MIFARE tags
 sys-apps/earlyoom 1.6.1 9999: Early OOM Daemon for Linux
 sys-cluster/flux-bin 2.2.3: Open and extensible continuous delivery solution for Kubernetes
-sys-cluster/vcluster-bin 0.19.2: Create fully functional virtual Kubernetes clusters
+sys-cluster/vcluster-bin 0.19.3: Create fully functional virtual Kubernetes clusters
 x11-misc/nvidia-xrun 9999: Script to run dedicated X server with discrete nvidia graphics
 x11-misc/nvidia-xrun-pm 9999: Script to run dedicated X server with discrete nvidia graphics
