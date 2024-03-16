@@ -1,15 +1,14 @@
 BDEPEND=>=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array virtual/pkgconfig
 DEFINED_PHASES=compile configure install test
-DEPEND=dev-python/python-evdev dev-python/pyudev virtual/libudev
+DEPEND=dev-python/matplotlib dev-python/python-evdev dev-python/pygobject dev-python/python-distutils-extra dev-python/pyudev dev-python/scipy dev-python/pyxdg
 DESCRIPTION=Steering Wheel Manager for Linux
 EAPI=7
 HOMEPAGE=https://github.com/berarma/oversteer
 INHERIT=meson udev
 KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86
 LICENSE=GPL-3.0
-RDEPEND=dev-python/python-evdev dev-python/pyudev virtual/libudev
-RESTRICT=mirror
+RDEPEND=dev-python/matplotlib dev-python/python-evdev dev-python/pygobject dev-python/python-distutils-extra dev-python/pyudev dev-python/scipy dev-python/pyxdg
 SLOT=0
-SRC_URI=https://github.com/berarma/oversteer/archive/0.4.1.tar.gz -> oversteer-0.4.1.tar.gz
+SRC_URI=https://github.com/berarma/oversteer/archive/0.8.1.tar.gz -> oversteer-0.8.1.tar.gz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	24c947ff5f858625cf0b33c15eed4425	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	8904b60325f22500b0c3ad4b68a42448	meson	56446e0ef4b4c9af0e2dd4cdef1a086e	udev	eec0bbab06977f1cfc5597269c1fa152
-_md5_=9dcdb00561200c6a1f8741ea4a9c7aac
+_md5_=93f6de452d90b310f826f22c52c4ebb0
