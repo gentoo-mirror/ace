@@ -8,5 +8,5 @@ LICENSE=Apache-2.0
 RESTRICT=mirror test
 SLOT=0
 SRC_URI=amd64? ( https://github.com/loft-sh/vcluster/releases/download/v0.20.0/vcluster-linux-amd64 -> vcluster-bin-0.20.0-amd64 ) arm64? ( https://github.com/loft-sh/vcluster/releases/download/v0.20.0/vcluster-linux-arm64 -> vcluster-bin-0.20.0-arm64 )
-_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
+_eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	bash-completion-r1	3047612be964ffd4a549447fc4289f12
 _md5_=5a4df06974de34fe7fae4f5ef8af259b
