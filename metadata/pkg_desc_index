@@ -1,4 +1,4 @@
-app-admin/chezmoi-bin 2.52.2: Manage your dotfiles across multiple machines, securely.
+app-admin/chezmoi-bin 2.52.3: Manage your dotfiles across multiple machines, securely.
 app-admin/system76-scheduler 2.0.0 2.0.1 2.0.2: Linux service that manages process priorities and CFS scheduler latencies for improved responsiveness on the desktop
 app-crypt/sops 3.9.0 9999: Simple and flexible tool for managing secrets
 app-laptop/tuxedo-drivers 4.7.0 9999: Kernel Module for Tuxedo Keyboard
