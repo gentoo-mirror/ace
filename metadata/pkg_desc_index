@@ -1,7 +1,7 @@
 app-admin/chezmoi-bin 2.54.0: Manage your dotfiles across multiple machines, securely.
 app-admin/system76-scheduler 2.0.0 2.0.1 2.0.2: Linux service that manages process priorities and CFS scheduler latencies for improved responsiveness on the desktop
 app-crypt/sops 3.9.0 9999: Simple and flexible tool for managing secrets
-app-laptop/tuxedo-drivers 4.11.2 9999: Kernel Module for Tuxedo Keyboard
+app-laptop/tuxedo-drivers 4.11.3 9999: Kernel Module for Tuxedo Keyboard
 app-misc/jdupes 1.28.0 9999: A powerful duplicate file finder and an enhanced fork of 'fdupes'.
 dev-libs/jansson 2.14: C library for encoding, decoding and manipulating JSON data
 dev-python/brother_ql 0.9.4: Python package to talk to Brother QL label printers
@@ -15,7 +15,7 @@ games-util/opentrack 2.3.11 2022.3.0 2023.3.0 2024.1.0 2024.1.1 9999: Head track
 games-util/oversteer 0.8.2 9999: Steering Wheel Manager for Linux
 media-fonts/tahoma 1: Microsoft's Tahoma font
 media-libs/vk_hdr_layer 9999: Vulkan layer utilizing a small color management / HDR protocol for experimentation
-net-analyzer/crowdsec-bin 1.6.3: CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI.
+net-analyzer/crowdsec-bin 1.6.4: CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI.
 net-dialup/tio 1.43: Simple TTY terminal application
 net-libs/nghttp3 0.5.0: HTTP/3 library written in C
 net-misc/choria 0.24.1: The Choria Orchestrator Server and Broker
@@ -27,4 +27,4 @@ net-vpn/forticlient 7.0.0.0018: Fortinet VPN client
 net-wireless/libfreefare 9999: a library for high level manipulation of MIFARE tags
 sys-apps/earlyoom 1.6.1 9999: Early OOM Daemon for Linux
 sys-cluster/flux-bin 2.3.0: Open and extensible continuous delivery solution for Kubernetes
-sys-cluster/vcluster-bin 0.21.0: Create fully functional virtual Kubernetes clusters
+sys-cluster/vcluster-bin 0.21.1: Create fully functional virtual Kubernetes clusters
