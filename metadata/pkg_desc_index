@@ -1,6 +1,6 @@
-app-admin/chezmoi-bin 2.55.0: Manage your dotfiles across multiple machines, securely.
+app-admin/chezmoi-bin 2.57.0: Manage your dotfiles across multiple machines, securely.
 app-admin/system76-scheduler 2.0.0 2.0.1 2.0.2: Linux service that manages process priorities and CFS scheduler latencies for improved responsiveness on the desktop
-app-crypt/sops 3.9.2 9999: Simple and flexible tool for managing secrets
+app-crypt/sops 3.9.3 9999: Simple and flexible tool for managing secrets
 app-laptop/tuxedo-drivers 4.11.7 9999: Kernel Module for Tuxedo Keyboard
 app-misc/jdupes 1.28.0 9999: A powerful duplicate file finder and an enhanced fork of 'fdupes'.
 dev-libs/jansson 2.14: C library for encoding, decoding and manipulating JSON data
@@ -27,4 +27,4 @@ net-vpn/forticlient 7.0.0.0018: Fortinet VPN client
 net-wireless/libfreefare 9999: a library for high level manipulation of MIFARE tags
 sys-apps/earlyoom 1.6.1 9999: Early OOM Daemon for Linux
 sys-cluster/flux-bin 2.3.0: Open and extensible continuous delivery solution for Kubernetes
-sys-cluster/vcluster-bin 0.21.2: Create fully functional virtual Kubernetes clusters
+sys-cluster/vcluster-bin 0.21.3: Create fully functional virtual Kubernetes clusters
