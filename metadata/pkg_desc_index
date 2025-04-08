@@ -27,4 +27,4 @@ net-vpn/forticlient 7.0.0.0018: Fortinet VPN client
 net-wireless/libfreefare 9999: a library for high level manipulation of MIFARE tags
 sys-apps/earlyoom 1.6.1 9999: Early OOM Daemon for Linux
 sys-cluster/flux-bin 2.5.1: Open and extensible continuous delivery solution for Kubernetes
-sys-cluster/vcluster-bin 0.21.4 0.22.4 0.23.0 0.24.0: Create fully functional virtual Kubernetes clusters
+sys-cluster/vcluster-bin 0.21.4 0.22.6 0.23.0 0.24.0: Create fully functional virtual Kubernetes clusters
