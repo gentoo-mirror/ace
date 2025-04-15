@@ -13,6 +13,7 @@ games-util/mangohud 0.7.0 0.7.1 0.7.2 0.8.0 0.8.1 9999: A Vulkan and OpenGL over
 games-util/new-lg4ff 0.3.1 0.3.3 0.4.0 9999: Experimental Logitech force feedback module
 games-util/opentrack 2.3.11 2022.3.0 2023.3.0 2024.1.0 2024.1.1 9999: Head tracking software for MS Windows, Linux, and Apple OSX
 games-util/oversteer 0.8.2 9999: Steering Wheel Manager for Linux
+mail-client/meli 0.8.10: terminal e-mail client
 media-fonts/tahoma 1: Microsoft's Tahoma font
 media-libs/vk_hdr_layer 9999: Vulkan layer utilizing a small color management / HDR protocol for experimentation
 net-analyzer/crowdsec-bin 1.6.8: CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI.
