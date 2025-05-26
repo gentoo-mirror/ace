@@ -24,6 +24,7 @@ net-misc/choria-bin 0.24.0 0.24.1 0.25.0 0.25.1 0.26.0 0.26.1 0.26.2 0.28.0 0.29
 net-misc/pulseaudio-module-xrdp 0.4: xrdp sink / source pulseaudio modules
 net-misc/xorgxrdp 0.9.20: Xorg drivers for xrdp
 net-misc/xrdp 0.9.23.1 0.9.25.1: An open source Remote Desktop Protocol server
+net-misc/yt6801 1.0.30: Linux device driver for Motorcomm YT6801 Gigabit Ethernet controllers
 net-vpn/forticlient 7.0.0.0018: Fortinet VPN client
 net-wireless/libfreefare 9999: a library for high level manipulation of MIFARE tags
 sys-apps/earlyoom 1.6.1 9999: Early OOM Daemon for Linux
