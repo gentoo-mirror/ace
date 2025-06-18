@@ -1,7 +1,7 @@
 app-admin/chezmoi-bin 2.62.6: Manage your dotfiles across multiple machines, securely.
 app-admin/system76-scheduler 2.0.0 2.0.1 2.0.2: Linux service that manages process priorities and CFS scheduler latencies for improved responsiveness on the desktop
 app-crypt/sops 3.10.2 9999: Simple and flexible tool for managing secrets
-app-laptop/tuxedo-drivers 4.14.0 9999: Kernel Module for Tuxedo Keyboard
+app-laptop/tuxedo-drivers 4.14.1 9999: Kernel Module for Tuxedo Keyboard
 app-misc/jdupes 1.28.0 9999: A powerful duplicate file finder and an enhanced fork of 'fdupes'.
 dev-libs/jansson 2.14: C library for encoding, decoding and manipulating JSON data
 dev-util/pdk 3.0.0.0 3.0.1.3 3.2.0.0 3.2.0.1 3.3.0.0 3.4.0.1: Puppet Development Kit
