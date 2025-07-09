@@ -1,0 +1,12 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install unpack
+DESCRIPTION=Additional Flatpak update timers - for user and non-default system installations
+EAPI=8
+HOMEPAGE=https://github.com/ananace/overlay
+INHERIT=systemd
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=sys-apps/flatpak sys-apps/systemd
+SLOT=0
+_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	systemd	a964c0cbe818b5729da1dbfcee5be861
+_md5_=af763f3f185a061ce54b83522df9030c
