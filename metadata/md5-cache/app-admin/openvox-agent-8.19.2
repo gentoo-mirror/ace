@@ -1,0 +1,16 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst unpack
+DEPEND=!app-admin/puppet !app-admin/puppet-agent !dev-ruby/hiera !dev-ruby/facter app-emulation/virt-what acct-user/puppet acct-group/puppet virtual/libcrypt:=
+DESCRIPTION=general puppet client utils along with hiera and facter
+EAPI=7
+HOMEPAGE=https://puppetlabs.com/
+INHERIT=systemd unpacker tmpfiles
+IUSE=puppetdb selinux
+KEYWORDS=amd64 ~arm64
+LICENSE=Apache-2.0
+RDEPEND=!app-admin/puppet !app-admin/puppet-agent !dev-ruby/hiera !dev-ruby/facter app-emulation/virt-what acct-user/puppet acct-group/puppet virtual/libcrypt:= app-portage/eix sys-apps/dmidecode sys-libs/libselinux sys-libs/glibc sys-libs/readline:0/8 sys-libs/libxcrypt[compat] sys-libs/ncurses:0[tinfo] selinux? ( sys-libs/libselinux[ruby] sec-policy/selinux-puppet ) puppetdb? ( >=dev-ruby/puppetdb-termini-5.0.1 ) virtual/tmpfiles
+RESTRICT=strip
+SLOT=0
+SRC_URI=amd64? ( https://apt.voxpupuli.org/pool/openvox8/o/openvox-agent/openvox-agent_8.19.2-1%2Bdebian13_amd64.deb ) arm64? ( https://apt.voxpupuli.org/pool/openvox8/o/openvox-agent/openvox-agent_8.19.2-1%2Bdebian13_arm64.deb )
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	systemd	a964c0cbe818b5729da1dbfcee5be861	multiprocessing	1e32df7deee68372153dca65f4a7c21f	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	tmpfiles	9a9814db5a3fbd4f1e921c05297e7735
+_md5_=414822ab5d282dd4f519b333498a046d
