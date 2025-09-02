@@ -10,7 +10,7 @@ games-util/new-lg4ff 0.3.1 0.3.3 0.4.0 9999: Experimental Logitech force feedbac
 mail-client/meli 0.8.12: terminal e-mail client
 media-fonts/tahoma 1: Microsoft's Tahoma font
 media-libs/vk_hdr_layer 9999: Vulkan layer utilizing a small color management / HDR protocol for experimentation
-net-analyzer/crowdsec-bin 1.6.11: CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI.
+net-analyzer/crowdsec-bin 1.7.0: CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI.
 net-misc/choria 0.24.1: The Choria Orchestrator Server and Broker
 net-misc/choria-bin 0.24.0 0.24.1 0.25.0 0.25.1 0.26.0 0.26.1 0.26.2 0.28.0 0.29.1 0.29.3 0.29.4: The Choria Orchestrator Server and Broker
 net-misc/yt6801 1.0.30: Linux device driver for Motorcomm YT6801 Gigabit Ethernet controllers

@@ -8,6 +8,6 @@ IUSE=cron server
 KEYWORDS=~amd64
 LICENSE=MIT
 SLOT=0
-SRC_URI=amd64? ( https://github.com/crowdsecurity/crowdsec/releases/download/v1.6.11/crowdsec-release.tgz -> crowdsec-release-1.6.11.tgz )
+SRC_URI=amd64? ( https://github.com/crowdsecurity/crowdsec/releases/download/v1.7.0/crowdsec-release.tgz -> crowdsec-release-1.7.0.tgz )
 _eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	systemd	a964c0cbe818b5729da1dbfcee5be861
 _md5_=296d867621da83c2e5a2d30d70100f7f
