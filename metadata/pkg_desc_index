@@ -1,5 +1,5 @@
 app-admin/chezmoi-bin 2.65.1: Manage your dotfiles across multiple machines, securely.
-app-admin/openvox-agent 8.22.1: general puppet client utils along with hiera and facter
+app-admin/openvox-agent 8.23.1: general puppet client utils along with hiera and facter
 app-admin/system76-scheduler 2.0.0 2.0.1 2.0.2: Linux service that manages process priorities and CFS scheduler latencies for improved responsiveness on the desktop
 app-crypt/sops 3.10.2 9999: Simple and flexible tool for managing secrets
 app-laptop/tuxedo-drivers 4.15.3 9999: Kernel Module for Tuxedo Keyboard
