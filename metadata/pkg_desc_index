@@ -16,4 +16,4 @@ net-misc/choria-bin 0.24.0 0.24.1 0.25.0 0.25.1 0.26.0 0.26.1 0.26.2 0.28.0 0.29
 net-misc/yt6801 1.0.30: Linux device driver for Motorcomm YT6801 Gigabit Ethernet controllers
 net-wireless/libfreefare 9999: a library for high level manipulation of MIFARE tags
 sys-cluster/flux-bin 2.7.0: Open and extensible continuous delivery solution for Kubernetes
-sys-cluster/vcluster-bin 0.25.1 0.26.2 0.28.0: Create fully functional virtual Kubernetes clusters
+sys-cluster/vcluster-bin 0.28.0 0.29.0: Create fully functional virtual Kubernetes clusters
