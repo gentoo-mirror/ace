@@ -1,4 +1,4 @@
-app-admin/chezmoi-bin 2.65.2: Manage your dotfiles across multiple machines, securely.
+app-admin/chezmoi-bin 2.66.0: Manage your dotfiles across multiple machines, securely.
 app-admin/openvox-agent 8.23.1: general puppet client utils along with hiera and facter
 app-admin/system76-scheduler 2.0.0 2.0.1 2.0.2: Linux service that manages process priorities and CFS scheduler latencies for improved responsiveness on the desktop
 app-crypt/sops 3.11.0 9999: Simple and flexible tool for managing secrets
@@ -15,5 +15,5 @@ net-misc/choria 0.24.1: The Choria Orchestrator Server and Broker
 net-misc/choria-bin 0.24.0 0.24.1 0.25.0 0.25.1 0.26.0 0.26.1 0.26.2 0.28.0 0.29.1 0.29.3 0.29.4: The Choria Orchestrator Server and Broker
 net-misc/yt6801 1.0.30: Linux device driver for Motorcomm YT6801 Gigabit Ethernet controllers
 net-wireless/libfreefare 9999: a library for high level manipulation of MIFARE tags
-sys-cluster/flux-bin 2.7.0: Open and extensible continuous delivery solution for Kubernetes
+sys-cluster/flux-bin 2.7.2: Open and extensible continuous delivery solution for Kubernetes
 sys-cluster/vcluster-bin 0.28.0 0.29.0: Create fully functional virtual Kubernetes clusters
