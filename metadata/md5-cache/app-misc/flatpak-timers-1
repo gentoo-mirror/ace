@@ -8,5 +8,5 @@ KEYWORDS=~amd64
 LICENSE=GPL-2
 RDEPEND=sys-apps/flatpak sys-apps/systemd
 SLOT=0
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	systemd	a964c0cbe818b5729da1dbfcee5be861
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	systemd	a964c0cbe818b5729da1dbfcee5be861
 _md5_=af763f3f185a061ce54b83522df9030c
